@@ -14,10 +14,10 @@
 # Login e Senha
 
 valor = float (input("Valor total da compra: "))
-fidelidade = input("Cliente possui fidelidade? (SIM/NÃO): ").lower()
+fidelidade = input("Cliente possui fidelidade? (S/N): ").lower()[0]
 print (fidelidade)
 
-if valor > 100 or fidelidade == "sim":
+if valor > 100 or fidelidade == "s":
     print ("Cliente tem direito a um brinde!")
 
 else:
