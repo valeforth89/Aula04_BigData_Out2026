@@ -12,13 +12,13 @@
 
 # Maioridade
 
-# Entrada
+
 pontuacao = int(input("Informe a pontuação do jogador: "))
 
-#Processamento
+
 
 # exemplo?: 100 pontos "da erro" pq faz duas verificações e trata as duas pq os IF são independentes
-# Saída
+
 if pontuacao >= 100:
     pontuacao = pontuacao + 10
     print (f"Excelente! Você tem: {pontuacao} pontos!")

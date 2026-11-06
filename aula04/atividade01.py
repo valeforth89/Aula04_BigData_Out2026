@@ -12,12 +12,8 @@
 
 # Desconto
 
-# Entrada
 valor = float(input("Informe o valor da compra: R$ "))
 
-#Processamento
-
-# Saída
 if valor > 250:
     desconto = float(valor * 0.16)
     valor_final = float(valor - desconto)

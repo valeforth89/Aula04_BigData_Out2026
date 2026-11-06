@@ -11,12 +11,8 @@
 
 # Maioridade
 
-# Entrada
 idade = int(input("Informe a idade: "))
 
-#Processamento
-
-# Saída
 if idade >= 18:
     print ("Você é maior de idade")
 

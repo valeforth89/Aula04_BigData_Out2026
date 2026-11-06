@@ -11,16 +11,10 @@
 
 # Maioridade
 
-# Entrada
 ano_nasc = int(input("Informe o ano de nascimento: "))
-
-#Processamento
 
 idade = 2026 - ano_nasc
 
-
-
-# Saída
 if idade >= 18:
     print ("Você é maior de idade!")
 

@@ -9,15 +9,12 @@
 # >= maior ou igual
 # <= menor ou igual
 # == igual   
+# AND / OR
 
 # Login e Senha
 
-# Entrada
-
 login = input("Informe o login: ")
 senha = input("Informe a senha: ")
-
-# Saída
 
 if login == "admin" and senha == "1234":
     print ("Login realizado com sucesso!")

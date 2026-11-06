@@ -12,12 +12,8 @@
 
 # Maioridade
 
-# Entrada
 pontuacao = int(input("Informe a pontuação do jogador: "))
 
-#Processamento
-
-# Saída
 if pontuacao >= 100:
     pontuacao = pontuacao + 10
     print (f"Excelente! Você tem: {pontuacao} pontos!")

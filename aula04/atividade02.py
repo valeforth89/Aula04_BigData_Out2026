@@ -19,13 +19,9 @@
 #   vendas inferiores a R$ 500,00: sem bônus
 # O programa deverá calcular o valor do bônus, somá-lo ao salário e apresentar o valor total com o bônus, quando aplicável
 
-# Entrada
 salario = float(input("Informe o valor do salário: R$ "))
 venda = float(input("Informe o valor da venda: R$ "))
 
-#Processamento
-
-# Saída
 if venda >= 1000:
     bonus = 150
     sal_bonus = salario + bonus
